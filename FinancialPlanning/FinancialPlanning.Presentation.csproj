@@ -16,4 +16,8 @@
     <ProjectReference Include="..\FinancialPlanning.Busines\FinancialPlanning.Busines.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+
 </Project>

@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinancialPlanning.Presentation
 {
-    public class HomeController(IExpenceCategoryService expenceCategoryService  ) : Controller
+    public class HomeController() : Controller
     {
-        IExpenceCategoryService _expenceCategoryService = expenceCategoryService;
+        
         public IActionResult Index()
         {
             return View();

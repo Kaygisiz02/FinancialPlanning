@@ -1,4 +1,4 @@
-﻿namespace FinancialPlanning
+﻿namespace FinancialPlanning.Data
 {
     public class FinancialPlanningDbContext:DbContext
     {
